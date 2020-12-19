@@ -11,7 +11,7 @@ class Cube(object):
         (1, -1, -1), (1, 1, -1), (-1, 1, -1), (-1, -1, -1),
         (1, -1, 1), (1, 1, 1), (-1, -1, 1), (-1, 1, 1)
     )
-    colors = (COLORS["red"], COLORS["green"], (1, 0.5, 0), COLORS["orange"], COLORS["white"], COLORS["blue"])
+    colors = (COLORS["red"], COLORS["white"], (1, 0.5, 0), COLORS["orange"], COLORS["green"], COLORS["blue"])
 
     def __init__(self, ident: tuple, n: int, scale: int) -> None:
         self.n = n
